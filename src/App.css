@@ -1,0 +1,89 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f8fc;
+  color: #222;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+  background: white;
+}
+
+.navbar h2 {
+  color: #1769aa;
+}
+
+.navbar a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #333;
+}
+
+button {
+  background: #1769aa;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hero {
+  text-align: center;
+  padding: 90px 20px;
+  background: #dceeff;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #124d7c;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 35px auto;
+  flex-wrap: wrap;
+}
+
+.search-box input {
+  padding: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.destinations {
+  padding: 45px 7%;
+  text-align: center;
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.destination {
+  background: white;
+  padding: 35px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 3px 12px #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background: white;
+}
